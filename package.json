@@ -4,8 +4,8 @@
   "description": "A simple snowflake ID generator.",
   "scripts": {
     "build": "tsc --build",
-    "lint": "prettier --plugin-search-dir . -- check . && eslint .",
-    "format": "prettier --plugin-search-dir . --write .",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier . --write .",
     "test": "jest"
   },
   "main": "build/index.js",

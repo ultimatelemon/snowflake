@@ -1,6 +1,6 @@
 {
   // Mapped from: https://www.typescriptlang.org/tsconfig
-  "compilerOptions": {    
+  "compilerOptions": {
     // Type Checking
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
@@ -21,7 +21,7 @@
     "module": "CommonJS",
     "skipLibCheck": true,
     "rootDir": "./src",
-    
+
     // Emit
     "outDir": "./build",
     "noEmitHelpers": true,

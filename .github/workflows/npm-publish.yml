@@ -2,7 +2,7 @@ name: Publish npm package
 
 on:
   release:
-    types: [created, edited]
+    types: [created]
 
 jobs:
   build:
@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 19
+      - run: yarn install
       - run: yarn build
       - run: yarn test
 
@@ -24,6 +25,7 @@ jobs:
         with:
           node-version: 19
           registry-url: https://registry.npmjs.org/
+      - run: yarn install
       - run: yarn build
       - run: yarn publish
         env:

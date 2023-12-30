@@ -1,0 +1,45 @@
+{
+  "name": "@ultimatelemoneu/snowflake",
+  "version": "1.0.0",
+  "description": "A simple snowflake ID generator.",
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "prettier --plugin-search-dir . -- check . && eslint .",
+    "format": "prettier --plugin-search-dir . --write ."
+  },
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "/build"
+  ],
+  "directories": {
+    "lib": "src"
+  },
+  "keywords": [
+    "snowflake",
+    "ultimatelemoneu",
+    "lemonflake"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ultimatelemon/snowflake.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ultimatelemon/snowflake/issues"
+  },
+  "author": {
+    "name": "UltimateLemon",
+    "url": "https://github.com/ultimatelemon"
+  },
+  "license": "LGPL-3.0-only",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.1.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}

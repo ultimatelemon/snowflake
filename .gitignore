@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# Production
+build/
+
+# Miscellaneous
+.vscode/
+.idea/
+.fleet/
+.DS_Store
+package-lock.json
+pnpm-lock.yml
+
+# Log files
+*.log
+npm-debug.log*
+yarn-error.log*
+logs/
+yarn.lock
+packag-lock.json
